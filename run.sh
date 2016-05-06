@@ -11,7 +11,7 @@ docker run \
 -v /mnt/share/Media/TV:/TV \
 -v $PWD/config:/config \
 -p 8081:8081 \
--it \
+-d \
 --privileged=true \
 --name $NAME \
 $IMGNAME
